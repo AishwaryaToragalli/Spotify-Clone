@@ -19,6 +19,16 @@ body{
     margin-right: 0.5rem;
 
 }
+.sidebar::-webkit-scrollbar{
+    width: 10px;
+    background-color: transparent;
+}
+.sidebar::-webkit-scrollbar-thumb{
+    background-color: transparent;
+}
+.container:hover::-webkit-scrollbar-thumb {
+        background-color: rgba(0, 0, 0, 0.9); 
+    }
 
 .maincontent{
     background-color: #121212;
@@ -406,4 +416,5 @@ opacity: 2;
     border-radius: 100px;
     margin-top: -3px;
 }
+
 
